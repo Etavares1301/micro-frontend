@@ -51,32 +51,62 @@ header p {
 h2{
     padding: 20px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .flex-container{
-    
-    background-color: rgb(91, 110, 131);
-    height: 400px;
-    
-
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .list{
     display: flex;
     flex-wrap: nowrap; 
+    justify-content: space-around;
     align-items: center;
+    margin: 50px auto;
 }
 
-.iten{
+.list li{
     display: inline-block;
-    height: 250px;
-    min-width: 150px;
-    border: 2px solid black;
-    margin: 20px 50px;
+    height: 300px;
+    width: 30%;
+    border: 2px solid black;    
     border-radius: 10px;
+    justify-content: space-around;
     text-align: center;
-    
+    align-items: center;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    vertical-align: top;
 }
+
+.list img{
+    height: 120px;
+    width: 120px;
+    margin: 40px 50px;
+}
+
+.change{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+   
+}
+
+.list .change:hover{
+    color: orange;
+}
+
+.list li:hover{
+    border-color: orange;    
+}
+
+.list li:active{
+    border-color: #088C19;
+}
+
 /*footer*/
 footer{
     background-color: black;
