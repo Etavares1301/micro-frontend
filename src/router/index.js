@@ -8,24 +8,24 @@ const routes = [
     component: Home
   },
   {
-    path: '/receitas',
-    name: 'Receitas',    
-    component: () => import(/* webpackChunkName: "receitas" */ '../components/Receitas.vue')
+    path: '/releases',
+    name: 'Releases',    
+    component: () => import(/* webpackChunkName: "releases" */ '../views/Releases.vue')
   },
   {
-    path: '/despesas',
-    name: 'Despesas',
-    component: () => import(/* webpackChunkName: "despesas" */ '../components/Despesas.vue')
+    path: '/accountRegistration',
+    name: 'AccountRegistration',
+    component: () => import(/* webpackChunkName: "accountRegistration" */ '../views/AccountRegistration.vue')
   },
   {
-    path: '/investimentos',
-    name: 'Investimentos',
-    component: () => import(/* webpackChunkName: "investimentos" */ '../components/Investimentos.vue')
+    path: '/reports',
+    name: 'Reports',
+    component: () => import(/* webpackChunkName: "reports" */ '../views/Reports.vue')
   },
   {
-    path: '/graficos',
-    name: 'Gráficos',
-    component: () => import(/* webpackChunkName: "graficos" */ '../components/Graficos.vue')
+    path: '/dashboards',
+    name: 'Dashboards',
+    component: () => import(/* webpackChunkName: "dashboards" */ '../views/Dashboards.vue')
   },
   {
     path: '/login',

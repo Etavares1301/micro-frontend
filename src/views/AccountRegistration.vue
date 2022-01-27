@@ -1,5 +1,5 @@
 <template>
     <div class="main-container">
-        <h1>Despesas</h1>
+        <h1>Cadastro de Contas</h1>
     </div>
 </template>

@@ -2,12 +2,13 @@
   <div id="nav">
     <router-link to="/" id="logo-url">
         <img :src="logo" :alt="alt" id="logo">
-    </router-link>      
-    <router-link to="../components/receitas">Receitas</router-link>
-    <router-link to="../components/despesas">Despesas</router-link>
-    <router-link to="../components/investimentos">Investimentos</router-link>
-    <router-link to="../components/graficos">Gráficos</router-link>    
-    <p>bem vindo, Eduardo</p>
+    </router-link>          
+    <router-link to="../views/releases">Lançamentos</router-link>
+    <router-link to="../views/AccountRegistration">Cadastro de Contas</router-link>
+    <router-link to="../views/reports">Relatórios</router-link>
+    <router-link to="../views/dashboards">Análises</router-link>    
+    <p>bem vindo,</p>
+    <label for="name">{Eduardo}</label>
     <router-link to="/login">Sair</router-link>
   </div>  
 </template>

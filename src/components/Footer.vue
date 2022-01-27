@@ -11,8 +11,10 @@
 </script>
 <style>
     #footer { 
-        margin-left: 1em;
-        color: gray;        
-        
+        margin-left: 1em;  
+        align-items: baseline;             
+    }
+    p {
+        color:#dcdcdc; 
     }
 </style>

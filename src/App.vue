@@ -30,7 +30,7 @@ export default{
     box-sizing: border-box;    
   }
   body {
-    background-color:	#F0FFFF;
+    background-color:		#708090;
   }
 
   .main-container {
