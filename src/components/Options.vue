@@ -9,7 +9,7 @@
       </v-btn>
       <v-btn>
         <h2>Contas</h2>
-        <img src="/img/despesas.png" />
+        <img src="/img/account.png" />
         <p class="description">Cadastre ou veja suas contas</p>
       </v-btn>
       <v-btn>
@@ -58,8 +58,7 @@
   border: 2px solid #000000;
   border-radius: 10px;
   cursor: pointer;  
-  background-color: #222;
-  opacity: 0.7;
+  background-color: rgb(110, 106, 106); 
   box-shadow: -5px 5px;
 }
 
