@@ -38,6 +38,7 @@
 <style scoped>
 .ask {
   font-size: 18px;
+  color: #222;
 }
 
 .options {
@@ -57,7 +58,9 @@
   border: 2px solid #000000;
   border-radius: 10px;
   cursor: pointer;  
-  background-color: #778899;
+  background-color: #222;
+  opacity: 0.7;
+  box-shadow: -5px 5px;
 }
 
 .options v-btn:hover {

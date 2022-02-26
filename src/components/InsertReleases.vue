@@ -16,10 +16,16 @@
           <p>Faça seu lançamento.</p>
           <div class="input">
             <input type="date" v-model="date" placeholder="Data" />
-            <input type="number" v-model="id" placeholder="Id" />
-            <input type="text" v-model="description" placeholder="Descrição" />
+            <input type="number" class="id" v-model="id" placeholder="Id" />
+            <input
+              type="text"
+              class="input-description"
+              v-model="description"
+              placeholder="Descrição"
+            />
             <input
               type="transfer"
+              class="input-description"
               v-model="transfer"
               placeholder="Transferência"
             />
@@ -30,64 +36,108 @@
         </div>
       </v-form>
       <p>Últimas movimentações</p>
-      <div class="bank-statement">
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
+      <div class="historc-container">
+        <input type="submit" class="submit-btn-editar" value="editar" />
       </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      <div class="input">
-        <input type="date" v-model="date" />
-        <input type="number" v-model="id" />
-        <input type="text" v-model="description" />
-        <input type="transfer" v-model="transfer" />
-        <input type="number" v-model="input" />
-        <input type="number" v-model="output" />
-      </div>
-      </div>
+        <div class="bank-statement">
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          <div class="input">
+            <input type="date" v-model="date" />
+            <input type="number" class="id" v-model="id" />
+            <input
+              type="text"
+              class="input-description2"
+              v-model="description"
+            />
+            <input
+              type="transfer"
+              class="input-description2"
+              v-model="transfer"
+            />
+            <input type="number" v-model="input" />
+            <input type="number" v-model="output" />
+          </div>
+          
+        </div>      
     </div>
   </div>
 </template>
@@ -117,6 +167,7 @@ export default {
   background-color: darkslateblue;
   color: #708090;
   text-align: center;
+  cursor: pointer;
 }
 .choose {
   display: inline-flex;
@@ -124,6 +175,7 @@ export default {
 }
 .choose p {
   padding-left: 15px;
+  padding-top: 5px;
 }
 
 .description {
@@ -135,6 +187,17 @@ export default {
 
 .input {
   display: inline-flex;
+}
+.id {
+  text-align: center;
+  width: 30px;
+}
+
+.input-description {
+  width: 330px;
+}
+.input-description2 {
+  width: 320px;
 }
 
 .submit-btn {
@@ -148,8 +211,31 @@ export default {
   cursor: pointer;
 }
 .bank-statement {
-    margin: 20px 50px;
+  width: 1140px;
+  margin: 10px 50px;
+  border: 2px solid black;
+  padding: 7px 7px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
 }
+.historc-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 47px;
+    
+}
+.submit-btn-editar {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  color: darkgray;
+  box-shadow: 2px 2px;
+  cursor: pointer;
+}
+
 p {
   color: white;
 }

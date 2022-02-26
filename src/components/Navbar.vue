@@ -20,14 +20,13 @@ export default {
 </script>
 <style>
 #nav {
-    background-color: black;
-    border-bottom: 4px solid #222;
+    background-color: #222;
+    border-bottom: 4px solid #0000;
     padding: 15px 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    max-height: 70px;  
-    border-end-end-radius:  2px;  
+    max-height: 70px;      
 }
 
 #nav #logo-url {
@@ -38,6 +37,7 @@ export default {
 #logo {
     width: 250px;
     height: 50px;
+    margin-top: -5px;
 }
 
 #nav a {
@@ -45,13 +45,14 @@ export default {
     text-decoration: none;
     margin: 12px;
     transition: .5s;
+    margin-top: 17px;
 }
 
 #nav a:hover {
     color: #fcba03;
 }
 
-p {
-    color: gray;
+.nav p {
+    color: #dcdcdc;
 }
 </style>

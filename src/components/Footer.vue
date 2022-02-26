@@ -15,6 +15,6 @@
         align-items: baseline;             
     }
     p {
-        color:#dcdcdc; 
+        color:#222; 
     }
 </style>
