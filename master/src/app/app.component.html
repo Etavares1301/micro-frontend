@@ -1,0 +1,14 @@
+<header>
+  <img src="./assets/logo zup branco.png" alt="">
+  <span>Banco ZUP</span>
+</header>
+
+<div class="links">
+  <button class="btn" (click)="caminho('extrato')">Extrato</button>
+  <button class="btn" (click)="caminho('pagamento')">Pagamento</button>
+</div>
+
+<main>
+  <micro-app-extrato *ngIf="extrato"></micro-app-extrato>
+  <micro-app-pagamento *ngIf="pagamento"></micro-app-pagamento>
+</main>
