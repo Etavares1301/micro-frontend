@@ -30,11 +30,27 @@
 
 <h2> Como rodar o projeto</h2>
 <ol>
+    <li>No componente Extrato, abrir o arquivo 'pakage.json' e rodar o script 'bundle'</li>
+    <li>Entrar na pasta 'dist/extrato' e abrir o arquivo 'index.html'</li>
+    <li>Substituir a tag 'app-root' por 'micro-app-extrato'</li>
+    <li>Substituir as tag scrpts por './extrato.js
+
+![image](https://github.com/Etavares1301/micro-frontend/assets/53662188/b2773ea4-b24e-417f-b0b0-a6f11a4aafa3)
+
+</li>
     <li>No Terminal da pasta do projeto 'extrato' navegue até a pasta 'dist'</li>
-    <li>Entre na pasta extrato (dentro da pasta dist)</li>
+    <li>Entre na pasta extrato</li>
     <li>Execulte o comando: 'http-server -p 3200'</li>
+    <li>No componente Pagamento, abrir o arquivo 'pakage.json' e rodar o script 'bundle'</li>
+    <li>Entrar na pasta 'dist/pagamento' e abrir o arquivo 'index.html'</li>
+    <li>Substituir a tag 'app-root' por 'micro-app-pagamento'</li>
+    <li>Substituir as tag scrpts por './pagamento.js
+
+![image](https://github.com/Etavares1301/micro-frontend/assets/53662188/5ba54aaa-a2dd-4b9a-a534-252fa9bdbaf7)
+
+</li>
     <li>No Terminal da pasta do projeto 'pagamento' navegue até a pasta 'dist'</li>
-    <li>Entre na pasta pagamento (dentro da pasta dist)</li>
+    <li>Entre na pasta pagamento</li>
     <li>Execulte o comando: 'http-server -p 3000'</li>
     <li>No Terminal da pasta do projeto 'maste' execulte o comando 'ng serve'</li>
     <li>Abra o Browser</li>
@@ -44,7 +60,7 @@
 <h2>Ultilizando o programa:</h2>
 <p>Na pagina principal do programa temos o header e os botoes: Extrato e Pagamento.</p>
 
-![image-20230510140751187]![image](https://github.com/Etavares1301/substituir/assets/53662188/4e6f6f89-5b79-4a20-a2bb-f9a59cecb483)
+![image](https://github.com/Etavares1301/substituir/assets/53662188/4e6f6f89-5b79-4a20-a2bb-f9a59cecb483)
 
 <p>Ao clicar no botão Extrato, será acessado o componente extrato.</p>
 
